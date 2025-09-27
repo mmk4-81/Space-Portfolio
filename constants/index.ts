@@ -80,23 +80,26 @@ export const Skill_data = [
   
   ];
   
-  export const Socials = [
-    {
-      name: "Instagram",
-      src: "/instagram.png",
-      link: "https://instagram.com/mmk4.official"
-    },
-    {
-      name: "Telegram", 
-      src: "/telegram.png", 
-      link: "https://t.me/mmk4_81", 
-    },
-    {
-      name: "linkedin",
-      src: "/linkedin1.png", 
-      link: "https://www.linkedin.com/in/mmkarbalaei"
-    },
-  ];
+
+export const Socials = [
+  
+  {
+    name: "Instagram",
+    link: "https://instagram.com/mmk4.official",
+    src: "/instagram.png",
+  },
+  {
+    name: "Telegram",
+    link: "https://t.me/mmk4_81",
+    src: "/telegram.png", 
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/mmkarbalaei",
+    src: "/linkedin1.png", 
+  }
+];
+
   
   
   
@@ -212,24 +215,20 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
+    { skill_name: "Linux", Image: "/linux.png", width: 80, height: 80 },
+
   ];
   
-  export const Full_stack = [
-    // {
-    //   skill_name: "React Native",
-    //   Image: "/ReactNative .png",
-    //   width: 70,
-    //   height: 70,
-    // },
-   
-    {
-      skill_name: "Figma",
-      Image: "/figma.png",
-      width: 50,
-      height: 50,
-    },
-  
+  export const Tools = [
+    { skill_name: "Git", Image: "/git.png", width: 80, height: 80 },
+    { skill_name: "GitHub", Image: "/github.png", width: 80, height: 80 },
+    { skill_name: "VSCode", Image: "/vscode.png", width: 80, height: 80 },
+    { skill_name: "Cursor", Image: "/cursor.png", width: 80, height: 80 },
+    { skill_name: "Vercel", Image: "/vercel.png", width: 80, height: 80 },
+    { skill_name: "Postman", Image: "/postman.png", width: 80, height: 80 },
   ];
+  
+
   
   
   

@@ -7,11 +7,13 @@ import * as THREE from "three";
 
 const StarBackground = (props: React.ComponentProps<typeof Points>) => {
   const ref = useRef<THREE.Points>(null!);
-  
-  const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.2 }));
+
+  const [sphere] = useState(() =>
+    random.inSphere(new Float32Array(5000), { radius: 1.2 })
+  );
 
   useFrame((state, delta) => {
-    if (ref.current) { 
+    if (ref.current) {
       ref.current.rotation.x -= delta / 10;
       ref.current.rotation.y -= delta / 15;
     }
@@ -25,7 +27,7 @@ const StarBackground = (props: React.ComponentProps<typeof Points>) => {
           color="#fff"
           size={0.002}
           sizeAttenuation={true}
-          depthWrite={false} 
+          depthWrite={false}
         />
       </Points>
     </group>
@@ -33,7 +35,7 @@ const StarBackground = (props: React.ComponentProps<typeof Points>) => {
 };
 
 const StarsCanvas = () => (
-  <div className="w-full h-auto fixed inset-0 z-[20]">
+  <div className="fixed inset-0 z-0 pointer-events-none w-full h-full">
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StarBackground />

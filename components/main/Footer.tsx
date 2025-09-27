@@ -1,102 +1,83 @@
-import Link from "next/link";
 import React from "react";
 import { FaInstagram, FaTelegram } from "react-icons/fa";
 import { RxLinkedinLogo, RxGithubLogo } from "react-icons/rx";
+
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] my-[20px]">
-      <div className="w-full flex flex-col items-center justify-center m-auto">
-        <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-          {/* Contact Information */}
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px] border-b-2 border-[#2A0E61] pb-2">
-              Contact
-            </div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">Iran/Dezful</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">+98 916 771 6820</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">
-                mmkkarbalaei@gmail.com
-              </span>
-            </p>
-            <div className="mb-[20px] text-[15px] text-center">
-              &copy; MMk 2025
-            </div>
+    <footer className="relative z-50 w-full bg-[#030014] text-gray-200 shadow-lg p-6 mt-10">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-10">
+        {/* Contact */}
+        <div className="flex flex-col items-center md:items-start min-w-[200px]">
+          <div className="font-bold text-[16px] border-b-2 border-[#2A0E61] pb-2 mb-4">
+            Contact
+          </div>
+          <p className="text-[15px] my-2">Iran / Dezful</p>
+          <p className="text-[15px] my-2">+98 916 771 6820</p>
+          <p className="text-[15px] my-2">mmkkarbalaei@gmail.com</p>
+          <div className="mt-4 text-[15px]">&copy; MMk 2025</div>
+        </div>
+
+        {/* Social Media */}
+        <div className="flex flex-col items-center md:items-start min-w-[200px]">
+          <div className="font-bold text-[16px] border-b-2 border-[#2A0E61] pb-2 mb-4">
+            Social Media
           </div>
 
-          {/* Social Media */}
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px] border-b-2 border-[#2A0E61] pb-2">
-              Social Media
-            </div>
+          <a
+            href="https://instagram.com/mmk4.official"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center my-2 cursor-pointer hover:text-[#2A0E61] transition-colors"
+          >
+            <FaInstagram className="mr-2" />
+            Instagram
+          </a>
 
-            {/* Instagram */}
-            <Link
-              href="https://instagram.com/mmk4.official"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-[#2A0E61] hover:underline"
-            >
-              <FaInstagram />
-              <span className="text-[15px] ml-[6px]">Instagram</span>
-            </Link>
+          <a
+            href="https://t.me/mmk4_81"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center my-2 cursor-pointer hover:text-[#2A0E61] transition-colors"
+          >
+            <FaTelegram className="mr-2" />
+            Telegram
+          </a>
 
-            {/* Telegram */}
-            <Link
-              href="https://t.me/mmk4_81"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
-            >
-              <FaTelegram />
-              <span className="text-[15px] ml-[6px]">Telegram</span>
-            </Link>
+          <a
+            href="https://www.linkedin.com/in/mmkarbalaei"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center my-2 cursor-pointer hover:text-[#2A0E61] transition-colors"
+          >
+            <RxLinkedinLogo className="mr-2" />
+            LinkedIn
+          </a>
 
-            {/* LinkedIn */}
-            <Link
-              href="https://www.linkedin.com/in/mmkarbalaei"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
-            >
-              <RxLinkedinLogo />
-              <span className="text-[15px] ml-[6px]">LinkedIn</span>
-            </Link>
+          <a
+            href="https://github.com/mmk4-81"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center my-2 cursor-pointer hover:text-[#2A0E61] transition-colors"
+          >
+            <RxGithubLogo className="mr-2" />
+            GitHub
+          </a>
+        </div>
 
-            {/* GitHub */}
-            <Link
-              href="https://github.com/mmk4-81"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
-            >
-              <RxGithubLogo />
-              <span className="text-[15px] ml-[6px]">GitHub</span>
-            </Link>
+        {/* About */}
+        <div className="flex flex-col items-center md:items-start min-w-[200px] max-w-[300px]">
+          <div className="font-bold text-[16px] border-b-2 border-[#2A0E61] pb-2 mb-4">
+            About
           </div>
-
-          {/* About */}
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px] border-b-2 border-[#2A0E61] pb-2">
-              About
-            </div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer text-justify max-w-[300px]">
-              <span className="text-[15px] ml-[6px]">
-                I&apos;m a passionate Full Stack Developer with a focus on
-                building modern web applications. I specialize in creating
-                user-friendly, scalable, and efficient solutions using the
-                latest technologies. Let&apos;s collaborate and bring your ideas
-                to life!
-              </span>
-            </p>
-          </div>
+          <p className="text-[15px] text-justify">
+            I&apos;m a Full-Stack Developer passionate about building modern web
+            applications. I focus on creating user-friendly, scalable, and
+            maintainable solutions, combining frontend and backend expertise.
+            Let&apos;s connect and turn ideas into reality!
+          </p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

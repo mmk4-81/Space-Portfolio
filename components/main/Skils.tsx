@@ -1,7 +1,7 @@
 import {
   Backend_skill,
   Frontend_skill,
-  Full_stack,
+  Tools,
 } from "@/constants";
 import React from "react";
 import SkilDataProvider from "../sub/skilDataProvider";
@@ -10,11 +10,11 @@ import SkilText from "../sub/SkilText";
 const Skils = () => {
   return (
     <section
-      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pt-20"
+      className="flex flex-col items-center justify-center gap-4 h-full relative overflow-hidden my-10 p-15"
       style={{ transform: "scale(0.9)" }}
     >
       <SkilText />
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap my-5 gap-7 items-center">
         {Frontend_skill.map((image, index) => (
           <SkilDataProvider
             key={index}
@@ -37,7 +37,7 @@ const Skils = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Full_stack.map((image, index) => (
+        {Tools.map((image, index) => (
           <SkilDataProvider
             key={index}
             src={image.Image}

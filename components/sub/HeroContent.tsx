@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Front-end Developer Portfolio
+          FullStack Developer Portfolio
           </h1>
         </motion.div>
 
@@ -48,15 +48,14 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 my-5 max-w-[600px] text-justify"
         >
-          I&apos;m a Front end developer with experience in Website and
-          Software development. Check out my projects and skills.
+           Hi, I&apos;m Mohammad Mehdi Karbalaei – a full stack developer with experience in creating responsive, scalable, and high-performance web applications. I enjoy working across both frontend and backend, and I’m always learning new technologies to improve my craft.
         </motion.p>
 
         <motion.a
           variants={slideInFromLeft(1)}
-          href="/path/to/your/cv.pdf" 
+          href="https://www.linkedin.com/in/mmkarbalaei" 
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Download CV
