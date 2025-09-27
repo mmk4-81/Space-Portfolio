@@ -24,7 +24,7 @@ Here you’ll find examples of my projects and the technologies I work with.
 
 ## 🌐 Live Demo  
 
-👉 [View Portfolio Live on Vercel](https://your-vercel-link.vercel.apphttps://space-portfolio-mmk.vercel.app)  
+👉 [View Portfolio Live on Vercel](https://space-portfolio-mmk.vercel.app)  
 
 ## 📡 Contact  
 
