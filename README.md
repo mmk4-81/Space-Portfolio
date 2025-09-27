@@ -1,49 +1,35 @@
-# 🚀 کهکشان کدهای من | پورتفولیوی یک توسعه‌دهنده فرانت‌اند  
+# 🚀 My Portfolio | Full Stack Developer  
 
-به پورتفولیوی آنلاین من خوش آمدید! این وب‌سایت برای نمایش پروژه‌ها، مهارت‌ها و تجربیات من در زمینه توسعه فرانت‌اند طراحی شده است. 🌌  
+Welcome to my online portfolio!  
+This website showcases my **projects, skills, and experience** as a full stack developer.  
 
-## 🌠 درباره من  
+## 🌠 About Me  
 
-من یک **توسعه‌دهنده فرانت‌اند** هستم که عاشق ساخت رابط‌های کاربری مدرن و جذاب با **تکنولوژی‌های پیشرفته** هستم. در این پورتفولیو، می‌توانید نمونه‌هایی از پروژه‌های من و مهارت‌های فنی‌ام را مشاهده کنید.  
+I’m a **full stack developer** with experience in building responsive, scalable, and high-performance web applications.  
+Here you’ll find examples of my projects and the technologies I work with.  
 
-## ✨ ویژگی‌ها  
+## ✨ Features  
 
-- 🚀 **نمایش پروژه‌های اخیر** همراه با توضیحات و لینک‌های دمو  
-- 🎨 **طراحی واکنش‌گرا و مینیمال**، الهام گرفته از فضای کیهانی 🌌  
-- 🛠️ **لیست مهارت‌های فنی** در توسعه فرانت‌اند  
-- 📬 **راه‌های ارتباطی برای همکاری و ارتباط با من**  
-- 🎬 **استفاده از انیمیشن‌های جذاب با framer-motion**  
+- 🚀 **Highlighted projects** with descriptions and GitHub links  
+- 🎨 **Responsive design** with a clean, modern UI  
+- 🎬 **Smooth animations** powered by Framer Motion  
+- 📬 **Easy ways to connect and collaborate**  
 
-## 🔧 فناوری‌های استفاده شده  
+## 🔧 Tech Stack  
 
-- 🚀 **Next.js** - فریمورک پیشرفته React برای وب‌سایت‌های بهینه و سریع  
-- 🎨 **Tailwind CSS** - طراحی مدرن و زیبا بدون دردسر  
-- 🎬 **Framer Motion** - انیمیشن‌های جذاب و تعاملی  
-- 🌌 **Three.js** - افکت‌های سه‌بعدی برای یک تجربه فضایی منحصر‌به‌فرد  
+- **Next.js** – Full stack React framework  
+- **Tailwind CSS** – Modern utility-first styling  
+- **Framer Motion** – Interactive animations  
+- **Three.js** – 3D effects and visuals  
 
-  
+## 🌐 Live Demo  
 
-## 🛸 نحوه اجرا  
+👉 [View Portfolio Live on Vercel](https://your-vercel-link.vercel.apphttps://space-portfolio-mmk.vercel.app)  
 
-برای اجرای پروژه به صورت محلی، مراحل زیر را دنبال کنید:  
+## 📡 Contact  
 
-```bash
-git clone https://github.com/mmk4-81/Space-Portfolio.git
-cd Space-Portfolio
-npm install
-npm run dev
-```
+- 📧 Email: **mmkkarbalaei@gmail.com**  
+- 💼 LinkedIn: [mmkarbalaei](https://www.linkedin.com/in/mmkarbalaei)  
+- 🐙 Instagram: [mmk4.official](https://instagram.com/mmk4.official)  
 
-
-## 📂 ساختار پروژه
-- 📁 components → شامل کامپوننت‌های UI و انیمیشن‌های تعاملی
-- 📁 pages → شامل صفحات اصلی وب‌سایت
-- 📁 public → شامل تصاویر و فایل‌های استاتیک
-- 📁 styles → استایل‌های گلوبال و شخصی‌سازی‌شده با Tailwind
-
-## 📡 تماس با من
-- 📧 ایمیل: mmkkarbalaei@gmail.com
-- 💼 لینکدین: mmkkarbalaei
-- 🐙 ایسنتاگرام: mmk4.official
-
-🌌 بیایید با هم دنیای دیجیتال را کشف کنیم! 🚀✨
+🚀 Let’s build something amazing together!  
